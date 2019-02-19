@@ -12,8 +12,9 @@ Version: 1.0
 /* Reset CSS */
 @import './settings/reset';
 @import './settings/fonts';
-
+@import './library/swiper.min';
 
 /* Components */
 @import "./components/header";
 @import "./components/menu";
+@import "./components/banner";

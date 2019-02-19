@@ -1,5 +1,7 @@
 <?php get_header() ?>
 
-  <h1>Hello, World!</h1>
+<main class="main">
+  <?php get_template_part( 'partials/home/banner' ) ?>
+</main>
 
 <?php get_footer() ?>

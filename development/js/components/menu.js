@@ -20,8 +20,8 @@ const MenuActions = (function () {
 
   return {
     startMenuEvents: function () {
-      console.log("MENU STARTED")
       if (hamburguer) {
+        console.log("MENU STARTED")
         addEventListener(hamburguer, activeMenu, "click")
       }
     }
