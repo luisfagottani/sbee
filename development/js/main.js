@@ -1,1 +1,4 @@
-console.log('gulp-wp-theme works!');
+import MenuActions from './menu'
+
+/* Iniatilizing Menu */
+MenuActions.startMenuEvents();

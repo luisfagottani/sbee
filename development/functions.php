@@ -97,3 +97,16 @@ function remove_assets_version( $src ){
 }
 add_filter( 'script_loader_src', 'remove_assets_version', 15, 1 );
 add_filter( 'style_loader_src', 'remove_assets_version', 15, 1 );
+
+
+
+// ===========================================================================================
+// Functions SBEE Theme
+// ===========================================================================================
+
+
+// Register Nav Menus
+register_nav_menus([
+  'main'       => 'Menu Main',
+  'menu-footer'     => 'Menu Footer',
+]);

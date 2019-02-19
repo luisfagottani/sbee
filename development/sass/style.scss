@@ -1,11 +1,19 @@
 /*!
-Theme Name: THEME_NAME
-Theme URI: THEME_URI
-Author: AUTHOR
+Theme Name: SBEE
+Theme URI: http://sbee.org.br
+Author: Luis Felipe Rodrigues Agottani
 Author URI: AUTHROURI
 Description: DESCRIPTION
-Version: VERSION
+Version: 1.0
 */
 
-/* Normalize */
-@import 'normalize.css/normalize';
+
+
+/* Reset CSS */
+@import './settings/reset';
+@import './settings/fonts';
+
+
+/* Components */
+@import "./components/header";
+@import "./components/menu";
