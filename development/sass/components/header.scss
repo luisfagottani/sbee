@@ -6,7 +6,7 @@
   &__hamburguer {
     // Box Model
     width: 64px;
-    height: 54px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,10 +57,10 @@
 
   &__nav {
     // Box Model
-    height: 54px;
+    height: 60px;
 
     // Visual
-    background-color: #586c8e;
+    background-color: #454b54;
     transition: 0.3s ease-in-out all;
 
     &.menu-active {
@@ -68,5 +68,48 @@
       transition: 0.3s ease-in-out all;
       background-color: #f1f1f1;
     }
+  }
+
+
+  &__logo {
+    // Box Model
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    // Position
+    position: relative;
+    z-index: 15;
+
+    img {
+      // Box Model
+      width: 37px;
+      margin-left: 15px
+    }
+
+    span {
+      // Typography
+      font-family: $mainFont;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+
+      // Box Model
+      margin-left: 6px;
+
+      // Visual
+      transition: 0.4s ease-in-out all;
+    }
+
+    .menu-active & {
+      span {
+        // Typography
+        color: #43526b;
+
+        // Visual
+        transition: 0.4s ease-in-out all;
+      }
+    }
+
   }
 }

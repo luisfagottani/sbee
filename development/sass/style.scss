@@ -13,8 +13,10 @@ Version: 1.0
 @import './settings/reset';
 @import './settings/fonts';
 @import './library/swiper.min';
+@import './settings/utils';
 
 /* Components */
 @import "./components/header";
 @import "./components/menu";
 @import "./components/banner";
+@import "./components/messages";

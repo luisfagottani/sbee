@@ -1,0 +1,60 @@
+.message {
+  &__content {
+    // Notodo
+  }
+
+  &__title {
+    // Typography
+    text-align: center;
+    font-weight: bold;
+    font-family: $mainFont;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 18px;
+
+    // Box Model
+    margin-bottom: 20px;
+  }
+
+  &__figure {
+    .blockquote {
+      // Typography
+      font-family: $mainFont;
+      font-style: italic;
+      text-align: center;
+      font-weight: 400;
+      font-size: 14px;
+
+      // Position
+      position: relative;
+
+      // Box Model
+      margin-bottom: 15px;
+
+      &:before {
+        // Visual
+        content: "\201C";
+
+        // Position
+        position: absolute;
+        top: -24px;
+        left: -22px;
+        z-index: -1;
+
+        // Typography
+        color: #ededed;
+        font-size: 90px;
+        font-family: Open-Sans;
+      }
+    }
+  }
+
+  &__caption {
+    // Typography
+    text-align: center;
+    font-weight: bold;
+    font-family: $mainFont;
+    line-height: 22px;
+    font-size: 12px;
+  }
+}

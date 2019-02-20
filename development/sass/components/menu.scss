@@ -1,4 +1,14 @@
 .menu-main-menu-container {
+  // Visual
+  border-top: 1px solid #e4e4e4;
+
+  .menu {
+    // Box Model
+    margin-top: 20px;
+  }
+}
+
+.menu-main {
   // Position
   position: fixed;
   right: 100%;
@@ -39,11 +49,11 @@
       // Typography
       font-family: $mainFont;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 30px;
-      text-transform: uppercase;
+      text-transform: none;
       text-decoration: none;
-      color: #586c8e;
+      color: #4f4f4f;
     }
   }
 }

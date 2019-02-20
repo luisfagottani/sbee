@@ -35,19 +35,6 @@
           </div>
 
         <?php endwhile; ?>
-          
-          <!-- <div class="swiper-slide">
-            <div class="banner__bg" style="background-image: url('https://demo.tagdiv.com/newspaper_politics/wp-content/uploads/2015/09/116.jpg');">
-              <img alt="USA Administration Begins Carrying Out Health Plan " src="https://demo.tagdiv.com/newspaper_politics/wp-content/uploads/2015/09/116.jpg" alt="">
-            </div>
-
-            <div class="banner__content">
-              <h2 class="banner__title">
-              USA Administration Begins Carrying Out Health Plan 
-              </h2>
-              <a href="#" alt=" " class="banner__cta">Veja Mais</a>
-            </div>
-          </div> -->
       </div>
 
       <!-- If we need navigation buttons -->

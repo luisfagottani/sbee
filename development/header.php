@@ -20,9 +20,15 @@
       <span></span>
       <span></span>
     </div>
-    <?php if(has_nav_menu( 'main' )): ?>
-      <?php wp_nav_menu( array('theme_location' => 'main') ) ?>
-    <?php endif; ?>
+    <h1 class="header__logo">
+      <img src="<?php cot_showheaderlogo(); ?>" alt="Logo SBEE"><span>Sociedade Brasileira de Estudos Espiritas</span>
+    </h1>
+    <div class="menu-main">
+      <?php if(has_nav_menu( 'main' )): ?>
+        <?php wp_nav_menu( array('theme_location' => 'main') ) ?>
+      <?php endif; ?>
+    </div>
+    
   </nav>
 </header>
 
