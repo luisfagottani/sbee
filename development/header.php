@@ -9,6 +9,7 @@
   <!-- Scripts and Styles -->
   <?php wp_head() ?>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
 
@@ -25,7 +26,7 @@
     </h1>
     <div class="menu-main">
       <?php if(has_nav_menu( 'main' )): ?>
-        <?php wp_nav_menu( array('theme_location' => 'main') ) ?>
+        <?php wp_nav_menu( array('theme_location' => 'main' ) ) ?>
       <?php endif; ?>
     </div>
     

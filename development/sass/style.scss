@@ -15,8 +15,13 @@ Version: 1.0
 @import './library/swiper.min';
 @import './settings/utils';
 
+/* Pages */
+@import "./page/default";
+
 /* Components */
 @import "./components/header";
 @import "./components/menu";
 @import "./components/banner";
 @import "./components/messages";
+@import "./components/breadcrumbs";
+@import "./components/footer";

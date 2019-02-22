@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>@lcons-light/16/Blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="@Forms-V2/Dropdown-close" transform="translate(-242.000000, -41.000000)" fill="#000000">
+            <g id="@Forms/Dropdown-close">
+                <g id="@Icons/Orion/Angle-down--blue" transform="translate(232.000000, 29.000000)">
+                    <g id="angle-down-6_c6b1c2ef-abc6-402a-9be5-bdd4187c2320">
+                        <g transform="translate(10.057143, 12.342857)" fill-rule="nonzero">
+                            <path d="M5.94028783,6.15470135 L11.0815562,0.159552505 C11.2459108,-0.0320987178 11.5345106,-0.0542269923 11.7261618,0.110127621 C11.917813,0.274482234 11.9399413,0.563081986 11.7755867,0.754733209 L6.28712952,7.15473321 C6.10463325,7.36753912 5.77534315,7.36745777 5.59295205,7.15456171 L0.109980619,0.754561706 C-0.0542792763,0.562829296 -0.0320084023,0.274240513 0.159724008,0.109980619 C0.351456418,-0.0542792763 0.640045201,-0.0320084023 0.804305096,0.159724008 L5.94028783,6.15470135 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
